@@ -5,7 +5,7 @@
 .box{
     padding: 30px;
     max-width: max-content;
-    margin: 200px;
+    margin: 100px;
     display: flex;
     flex-direction: row;
     border: 2px solid red;
