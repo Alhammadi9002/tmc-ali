@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #text{
+            text-align: center;
+        }
+        #box{
+            position: absolute;
+            left: 50%;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text"> DARK/LIGHT Switch mode</h1>
+    <input type="checkbox" id="box">
+    
+    <script>
+        let switchInput = document.getElementById("box");
+        let textInput = document.getElementById("text");
+        switchInput.addEventListener('change',function(){
+            if(this.checked) {
+                document.body.style.background = 'black';
+                textInput.style.color = 'white'
+            } else {
+                document.body.style.background = ''
+                textInput.style.color = ''
+            }
+        });
+    </script>
+</body>
+</html>
