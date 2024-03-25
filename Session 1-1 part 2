@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><button>Work</button></li>
+                <li><button>About Me</button></li>
+                <li><button>Contact</button></li>
+            </ul>
+        </header>
+        <h1>Hello World!</h1>
+        <p>My name is John Doe!</p>
+        <p>I'm a web developer from Dubai</p>
+        <span>Check out some of my code</span>
+        <footer>
+            <p>Find me</p>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Reddit</li>
+                <li>Discord</li>
+            </ul>
+        </footer>
+    </body>
+</html>
