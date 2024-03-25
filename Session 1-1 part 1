@@ -1,0 +1,21 @@
+<html>
+<body>
+ 
+  <header>
+    <ul>
+        <button>Work</button>
+        <button>About me</button>
+        <button>Contact</button>
+    </ul>
+  </header>
+  <section>
+    <h2>Hello World!</h2>
+    <h2>My name is John Doe!</h2>
+    <h2>I'm a web developer from dubai</h2>
+    <h3>Check out some of my code</h3>
+  </section>
+  <footer>
+      Find Me
+  </footer>
+</body>
+</html>
